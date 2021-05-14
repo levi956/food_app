@@ -7,7 +7,7 @@ class login_page extends StatelessWidget {
     Navigator.of(ctx).push(
       MaterialPageRoute(
         builder: (_) {
-          return bodyScreen();
+          return body_screen();
         },
       ),
     );
@@ -60,6 +60,7 @@ class login_page extends StatelessWidget {
               elevation: 5.0,
               borderRadius: BorderRadius.circular(17),
               color: Colors.green[600],
+              // ignore: deprecated_member_use
               child: FlatButton(
                 minWidth: 250.0,
                 height: 60,

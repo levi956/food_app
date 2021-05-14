@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:travel_project/login_page.dart';
+import 'package:travel_project/screens/login_page.dart';
 import 'package:sizer/sizer.dart';
+//import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 void main() {
   runApp(MyApp());

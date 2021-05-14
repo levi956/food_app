@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'Categories.dart';
-import 'Vendors.dart';
+import 'package:travel_project/widgets/Categories.dart';
+import 'package:travel_project/widgets/Vendors.dart';
 
-class bodyScreen extends StatelessWidget {
+// ignore: camel_case_types
+class body_screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -11,7 +12,7 @@ class bodyScreen extends StatelessWidget {
         backgroundColor: Colors.green[600],
         title: Text(
           'Welcome',
-          style: TextStyle(fontFamily: 'Poppins', color: Colors.black),
+          style: TextStyle(fontFamily: 'Poppins', color: Colors.white),
         ),
       ),
       body: BodyContent(),
@@ -25,6 +26,7 @@ class BodyContent extends StatefulWidget {
 }
 
 class _BodyContentState extends State<BodyContent> {
+  //final _pageController = PageController(viewportFraction: 0.877);
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -34,6 +36,7 @@ class _BodyContentState extends State<BodyContent> {
           SizedBox(
             height: 10.0,
           ),
+
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
@@ -60,9 +63,11 @@ class _BodyContentState extends State<BodyContent> {
               ),
             ],
           ),
+
           SizedBox(
             height: 19.0,
           ),
+
           Container(
             margin: EdgeInsets.only(left: 20),
             child: Text(
@@ -75,6 +80,7 @@ class _BodyContentState extends State<BodyContent> {
               ),
             ),
           ),
+
           Container(
             height: 6.5.h,
             width: 80.h,
@@ -94,6 +100,7 @@ class _BodyContentState extends State<BodyContent> {
                   ))),
             ),
           ),
+
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -110,6 +117,7 @@ class _BodyContentState extends State<BodyContent> {
               )
             ],
           ),
+
           Categories(),
           SizedBox(
             height: 10,
@@ -125,7 +133,8 @@ class _BodyContentState extends State<BodyContent> {
                   fontWeight: FontWeight.w400),
             ),
           ),
-          Vendors(),
+
+          Vendors(), //Vendors widget
         ],
       ),
     );
