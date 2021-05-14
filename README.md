@@ -1,4 +1,4 @@
-# travel_project
+# A food app UI built with Flutter
 
 A new Flutter project.
 
