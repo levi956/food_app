@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:travel_project/widgets/custom_indicator.dart';
+import 'package:travel_project/screens/restaurant_screen.dart';
 
 class Categories extends StatefulWidget {
   @override
@@ -12,7 +13,7 @@ class _CategoryListState extends State<Categories> {
   Widget build(BuildContext context) {
     return Container(
       height: 30,
-      margin: EdgeInsets.only(left: 14.4, top: 28.8),
+      margin: EdgeInsets.only(left: 14.4, top: 15.8),
       child: DefaultTabController(
         length: 4,
         child: TabBar(
@@ -28,7 +29,10 @@ class _CategoryListState extends State<Categories> {
           tabs: [
             Tab(
               child: Container(
-                child: Text('Restaurants'),
+                child: InkWell(
+                  onTap: () => Navigator.pushNamed(context, '/restaurant'),
+                  child: Text('Restaurants'),
+                ),
               ),
             ),
             Tab(
