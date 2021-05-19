@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:travel_project/models/vendomModels.dart';
@@ -38,7 +39,8 @@ class _VendorsState extends State<Vendors> {
                           borderRadius: BorderRadius.circular(9),
                           image: DecorationImage(
                             fit: BoxFit.cover,
-                            image: NetworkImage(vendors[index].image),
+                            image: CachedNetworkImageProvider(
+                                vendors[index].image),
                           )),
                       child: Stack(
                         children: <Widget>[
