@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:travel_project/models/restaurantsModel.dart';
+//import 'package:travel_project/models/restaurantsModel.dart';
 import 'package:flutter_svg/svg.dart';
 
 // class RestaurantCategoryScreen extends StatelessWidget {

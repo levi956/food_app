@@ -3,7 +3,6 @@ import 'package:sizer/sizer.dart';
 import 'package:travel_project/widgets/Categories.dart';
 import 'package:travel_project/widgets/Vendors.dart';
 import 'package:flutter_svg/svg.dart';
-import 'restaurant_screen.dart';
 
 // ignore: camel_case_types
 class body_screen extends StatelessWidget {

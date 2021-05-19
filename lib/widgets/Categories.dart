@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:travel_project/widgets/custom_indicator.dart';
-import 'package:travel_project/screens/restaurant_screen.dart';
 
 class Categories extends StatefulWidget {
   @override

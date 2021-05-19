@@ -3,7 +3,6 @@ import 'package:travel_project/screens/bodyScreen.dart';
 import 'package:travel_project/screens/login_page.dart';
 import 'package:sizer/sizer.dart';
 import 'package:travel_project/screens/restaurant_screen.dart';
-//import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
     return Sizer(
       builder: (context, orientation, deviceType) {
         return MaterialApp(
-          theme: ThemeData(primaryColor: Colors.blue[600]),
+          theme: ThemeData(primaryColor: Colors.white),
           debugShowCheckedModeBanner: false,
           title: 'Travel Project 1',
           initialRoute: '/',

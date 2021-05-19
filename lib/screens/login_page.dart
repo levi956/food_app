@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'bodyScreen.dart';
 import 'package:sizer/sizer.dart';
 
+// ignore: camel_case_types
 class login_page extends StatelessWidget {
   static String id = 'login';
 
@@ -46,7 +46,7 @@ class login_page extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 30,
+                height: 15.h,
               ),
               Container(
                 //height: 9.h,
