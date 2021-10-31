@@ -1,13 +1,13 @@
 // ignore: camel_case_types
-class categoryModel {
+class CategoryModel {
   final String name;
   final String image;
 
-  categoryModel(this.name, this.image);
+  CategoryModel(this.name, this.image);
 }
 
-List<categoryModel> categories = categoryData
-    .map((item) => categoryModel(item['name'], item['image']))
+List<CategoryModel> categories = categoryData
+    .map((item) => CategoryModel(item['name'], item['image']))
     .toList();
 
 const categoryData = [

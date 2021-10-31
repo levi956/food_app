@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:travel_project/screens/bodyScreen.dart';
+import 'package:travel_project/screens/body_screen.dart';
 import 'package:travel_project/screens/login_page.dart';
 import 'package:sizer/sizer.dart';
-import 'package:travel_project/screens/restaurant_screen.dart';
+import 'package:travel_project/screens/restaurant_category_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,11 +19,11 @@ class MyApp extends StatelessWidget {
         return MaterialApp(
           theme: ThemeData(primaryColor: Colors.white),
           debugShowCheckedModeBanner: false,
-          title: 'Travel Project 1',
+          title: 'The demo food ordering app',
           initialRoute: '/',
           routes: {
-            '/': (context) => login_page(),
-            '/body_screen': (context) => body_screen(),
+            '/': (context) => LoginPage(),
+            '/body_screen': (context) => BodyScreen(),
             '/restaurant': (context) => RestaurantCategoryScreen()
           },
         );

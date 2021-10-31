@@ -5,7 +5,7 @@ import 'package:travel_project/widgets/Vendors.dart';
 import 'package:flutter_svg/svg.dart';
 
 // ignore: camel_case_types
-class body_screen extends StatelessWidget {
+class BodyScreen extends StatelessWidget {
   static String id = 'body_screen';
   @override
   Widget build(BuildContext context) {
