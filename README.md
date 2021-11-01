@@ -1,4 +1,4 @@
-# A food app UI built with Flutter
+# A Food Ordering Mobile App UI built with Flutter
 
 A new Flutter project.
 
