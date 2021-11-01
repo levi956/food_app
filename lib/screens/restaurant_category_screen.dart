@@ -2,35 +2,6 @@ import 'package:flutter/material.dart';
 //import 'package:travel_project/models/restaurantsModel.dart';
 import 'package:flutter_svg/svg.dart';
 
-// class RestaurantCategoryScreen extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return SafeArea(
-//       child: Scaffold(
-//         backgroundColor: Colors.white,
-//         body: ListView.builder(
-//           itemCount: restaurants.length,
-//           itemBuilder: (context, index) => ListTile(
-//             leading: CircleAvatar(
-//               backgroundImage: NetworkImage(restaurants[index].logo),
-//             ),
-//             title: Text(
-//               restaurants[index].name,
-//               style: TextStyle(fontFamily: 'Poppins'),
-//             ),
-//             subtitle: Text(
-//               restaurants[index].description,
-//               style: TextStyle(
-//                 fontFamily: 'Poppins',
-//               ),
-//             ),
-//           ),
-//         ),
-//       ),
-//     );
-//   }
-// }
-
 class RestaurantCategoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
