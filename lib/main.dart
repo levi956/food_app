@@ -1,17 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:travel_project/screens/body_screen.dart';
-import 'package:travel_project/screens/login_screen.dart';
+import 'package:food_app/screens/body_screen.dart';
+import 'package:food_app/screens/login_screen.dart';
 import 'package:sizer/sizer.dart';
-import 'package:travel_project/screens/restaurant_category_screen.dart';
+import 'package:food_app/screens/restaurant_category_screen.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  static String id = 'home';
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return Sizer(

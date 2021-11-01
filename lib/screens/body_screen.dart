@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:travel_project/widgets/Categories.dart';
-import 'package:travel_project/widgets/Vendors.dart';
+import 'package:food_app/widgets/Categories.dart';
+import 'package:food_app/widgets/Vendors.dart';
 import 'package:flutter_svg/svg.dart';
 
 // ignore: camel_case_types
