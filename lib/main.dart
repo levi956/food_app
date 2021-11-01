@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travel_project/screens/body_screen.dart';
-import 'package:travel_project/screens/login_page.dart';
+import 'package:travel_project/screens/login_screen.dart';
 import 'package:sizer/sizer.dart';
 import 'package:travel_project/screens/restaurant_category_screen.dart';
 
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
           title: 'The demo food ordering app',
           initialRoute: '/',
           routes: {
-            '/': (context) => LoginPage(),
+            '/': (context) => LoginScreen(),
             '/body_screen': (context) => BodyScreen(),
             '/restaurant': (context) => RestaurantCategoryScreen()
           },

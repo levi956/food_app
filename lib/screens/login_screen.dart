@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
 // ignore: camel_case_types
-class LoginPage extends StatelessWidget {
+class LoginScreen extends StatelessWidget {
   static String id = 'login';
 
   @override
