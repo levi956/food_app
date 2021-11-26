@@ -15,10 +15,11 @@ class LoginScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Center(
-                  child: Image(
-                height: 30.h,
-                image: AssetImage('assets/images/gummy-coffee.png'),
-              )),
+                child: Image(
+                  height: 30.h,
+                  image: AssetImage('assets/images/gummy-coffee.png'),
+                ),
+              ),
               Center(
                 child: Text(
                   'Explore New Places',

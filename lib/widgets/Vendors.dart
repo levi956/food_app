@@ -84,7 +84,7 @@ class _VendorsState extends State<Vendors> {
         ),
         Center(
           child: Padding(
-            padding: EdgeInsets.only(top: 28.8),
+            padding: EdgeInsets.only(top: 20.8, bottom: 24.8),
             child: SmoothPageIndicator(
               controller: _pageController,
               count: vendors.length,

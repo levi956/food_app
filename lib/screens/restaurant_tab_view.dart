@@ -1,43 +1,14 @@
 import 'package:flutter/material.dart';
 //import 'package:travel_project/models/restaurantsModel.dart';
-import 'package:flutter_svg/svg.dart';
 
-class RestaurantCategoryScreen extends StatelessWidget {
+class RestaurantTabView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-        child: Scaffold(
-      body: Container(
+    return SingleChildScrollView(
+      child: Container(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            // back button
-            GestureDetector(
-                onTap: () {
-                  Navigator.of(context).pop();
-                },
-                //0x10000000
-                child: Container(
-                  margin: EdgeInsets.only(left: 20, top: 13),
-                  height: 57.6,
-                  width: 57.6,
-                  padding: EdgeInsets.all(18),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(9.6),
-                    color: Colors.grey[400],
-                  ),
-                  child: SvgPicture.asset('assets/svg/icon_left_arrow.svg'),
-                )),
-
-            //All vendors text widget
-            Container(
-              margin: EdgeInsets.only(top: 15, left: 15),
-              child: Text(
-                'All Vendors',
-                style: TextStyle(
-                    fontFamily: 'Poppins', fontSize: 27, color: Colors.black),
-              ),
-            ),
             ListTile(
               leading: Image(
                 image: NetworkImage(
@@ -91,6 +62,6 @@ class RestaurantCategoryScreen extends StatelessWidget {
           ],
         ),
       ),
-    ));
+    );
   }
 }
