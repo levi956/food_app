@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 import 'package:food_app/widgets/categories_tab.dart';
-import 'package:food_app/widgets/vendors.dart';
+import 'package:food_app/widgets/vendors_pageview.dart';
 import 'package:flutter_svg/svg.dart';
 
-// ignore: camel_case_types
 class BodyScreen extends StatelessWidget {
   static String id = 'body_screen';
   @override
@@ -13,7 +12,7 @@ class BodyScreen extends StatelessWidget {
       bottom: false,
       child: Scaffold(
         floatingActionButton: FloatingActionButton(
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.green,
           child: Center(
             child: Image.asset("assets/images/shopping_cart.png",
                 width: 30, height: 30),
@@ -32,7 +31,6 @@ class BodyContent extends StatefulWidget {
 }
 
 class _BodyContentState extends State<BodyContent> {
-  //final _pageController = PageController(viewportFraction: 0.877);
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -145,7 +143,7 @@ class _BodyContentState extends State<BodyContent> {
             ],
           ),
 
-          // categories indicator widget
+          // categories tab bar & tabview widget
           CategoriesTab(),
 
           SizedBox(

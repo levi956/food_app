@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
-// ignore: camel_case_types
-class LoginScreen extends StatelessWidget {
+class StartupScreen extends StatelessWidget {
   static String id = 'login';
 
   @override
@@ -50,7 +49,6 @@ class LoginScreen extends StatelessWidget {
                 height: 15.h,
               ),
               Container(
-                //height: 9.h,
                 alignment: Alignment.center,
                 child: Material(
                   elevation: 5.0,
@@ -62,7 +60,7 @@ class LoginScreen extends StatelessWidget {
                     height: 60,
                     padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
                     onPressed: () =>
-                        Navigator.pushNamed(context, '/body_screen'),
+                        Navigator.pushNamed(context, '/sign_in_screen'),
                     child: Text(
                       'Get Started',
                       style: TextStyle(

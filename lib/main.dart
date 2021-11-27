@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:food_app/screens/body_screen.dart';
-import 'package:food_app/screens/login_screen.dart';
+import 'package:food_app/screens/sign_in_screen.dart';
+import 'package:food_app/screens/startup_screen.dart';
 import 'package:sizer/sizer.dart';
+
+//TO DO:
+// convert images to assets or cathc error exception
+// debug sign in screen completely
+// kyc page (sign up page) -- write down kyc info later on
+//
 
 void main() {
   runApp(MyApp());
@@ -18,8 +25,9 @@ class MyApp extends StatelessWidget {
           title: 'The demo food ordering app',
           initialRoute: '/',
           routes: {
-            '/': (context) => LoginScreen(),
+            '/': (context) => StartupScreen(),
             '/body_screen': (context) => BodyScreen(),
+            '/sign_in_screen': (context) => SignIn(),
           },
         );
       },

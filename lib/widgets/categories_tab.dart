@@ -37,7 +37,7 @@ class _CategoryTabListState extends State<CategoriesTab>
               ),
               Tab(
                 child: Container(
-                  child: Text('Party'),
+                  child: Text('Desserts'),
                 ),
               ),
               Tab(
@@ -47,7 +47,7 @@ class _CategoryTabListState extends State<CategoriesTab>
               ),
               Tab(
                 child: Container(
-                  child: Text('Desserts'),
+                  child: Text('Party'),
                 ),
               ),
             ],
