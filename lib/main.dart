@@ -5,9 +5,9 @@ import 'package:food_app/screens/startup_screen.dart';
 import 'package:sizer/sizer.dart';
 
 //TO DO:
-// convert images to assets or cathc error exception
-// debug sign in screen completely
-// kyc page (sign up page) -- write down kyc info later on
+// convert images to assets or catch error exception
+// debug sign in screen completely ( layout)
+// create kyc page (sign up page) -- write down kyc info later on
 //
 
 void main() {
